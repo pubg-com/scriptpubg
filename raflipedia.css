@@ -1,0 +1,272 @@
+<!--- 
+SCRIPT BY RAFLIPEDIA INDONESIA 
+HAK CIPTA DILINDUNGI OLEH UNDANG-UNDANG
+--->
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400,500");
+*,*:before,*:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+	background:url(http://www.pubgmobile.com/id/event/teamDeathmatchMode/images/s4_bg.jpg) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin: 0;
+	font-family: 'Teko';
+}
+
+/* ELEMEN TAMPILAN */
+.container {
+	position:relative;
+	margin:50px auto;
+	max-width:600px;
+	height:auto;
+	padding:30px;
+}
+
+.navbar {
+	background-color: #000;
+	height:auto;
+	width:100%;
+	border:4px;
+	border-bottom: 1px solid #eaa300;
+	padding:10px;
+	margin: 0px auto;
+	position:relative;
+	overflow:hidden;
+	z-index:1;
+}
+.navbar img {
+    padding-top: 7px;
+    width:60;
+    float:left;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.navbar span.game {
+    color:#eaa300;
+	font-size:28px;
+	font-family:'Teko';
+	padding-top: 10px;
+	margin: 0;
+	font-weight:normal;
+}
+.navbar span.slogan {
+    float:left;
+    margin: 0;
+    color:#d9d9d8;
+    font-size:20px
+}
+.header {
+	background:#000;
+	width:100%;
+	height:auto;
+	padding:0px;
+	margin:0px auto;	
+	color:#000;
+	font-family: 'Teko';
+	text-align: center;
+	letter-spacing: 1;
+	border-bottom: 1px solid #eaa300;
+}
+.header img {
+    width: 100%;
+    height: 300;
+    margin: 0;
+    padding: 0;
+}
+.footer {
+	background:#000;
+	padding:10px;
+	margin:0px auto;
+	color:#fff;
+	height:40px;
+	border-top: 1px solid #eaa300;
+}
+.footer img.pubg {
+    width: 30;
+    float: left;
+}
+.footer img.tg {
+    width: 30;
+    float: right;
+}
+
+/* ELEMEN TAMPILAN /*
+
+
+/* ELEMEN HADIAH */
+.box {
+	background: #000;
+	width:100%;
+	height:auto;
+	padding:10px;
+	margin:0px auto;
+	color:#fff;
+	font-size: 1.8em;
+	font-family: 'Teko';
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 1;
+}
+
+.item-name {
+    background: #eaa300;
+	display:inline-block;
+	width:102px;
+	height:102px;
+	margin:3px;
+	margin-bottom: 5px;
+	color:white;
+	border-radius:2px;
+}
+.item-name img.item-size {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+.item-name, img.item-size, .bawahan {
+    background: #ffcc57;
+    height: auto;
+    border: 1px solid #ffcc57;
+}
+hr.line {
+	width:99%;
+	display:block;
+	border:1px solid #fff;
+}
+.btn-klaim {
+	background:#eaa300;
+	position:relative;
+	width:100%;
+	height:30px;
+	color:#ffcc57;
+	border-radius:1px;
+	border: none;
+	font-size:10px;
+	font-weight:400;
+	text-align:center;
+	letter-spacing:2px;
+	outline:none;
+	font-family:'Teko';
+}
+.btn-more {
+	background:#eaa300;
+	position:relative;
+	width:40%;
+	height:40px;
+	color:#ffcc57;
+	border-radius:4px;
+	border: 1px solid #ffcc57;
+	font-size:15px;
+	font-weight:400;
+	text-align:center;
+	letter-spacing:2px;
+	outline:none;
+	font-family:'Teko';
+}
+/* ELEMEN HADIAH END /*
+
+
+
+/* ELEMEN LOADING */
+.loading {
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:9999;
+	background: url(../img/loading.gif) center no-repeat black;
+}
+/* ELEMEN LOADING END /*
+
+
+/* ELEMEN INPUT */
+label {
+    color: #eaa300;
+    font-size: 15px;
+    font-family: 'Teko';
+    float: left;
+}
+input[type=text],input[type=password],input[type=number] {
+	width:100%;
+	height:40px;
+	padding:0 24px;
+	margin-bottom: 15px;
+	font-size:15px;
+	color:#eaa300;
+	line-height:58px;
+	letter-spacing: 1px;
+	border:1px solid #eaa300;
+	border-radius: 2px;
+	background:none;
+	position:relative;
+	outline: none;
+	font-family: 'Teko';
+	z-index:2;
+}
+select {
+	width:100%;
+	height:40px;
+	padding:0 24px;
+	margin-bottom: 15px;
+	font-size:15px;
+	color:#eaa300;
+	line-height:58px;
+	letter-spacing:0;
+	border:1px solid #eaa300;
+	border-radius: 2px;
+	background:none;
+	position:relative;
+	outline: none;
+	font-family: 'Teko';
+	z-index:2;
+}
+::placeholder {
+color: #eaa300;
+letter-spacing: 1;
+}
+h5.status {
+ background: #eaa300;
+ width: 40%;
+ font-size: 15px;
+ text-align: center;
+ color: #ffcc57;
+ font-family: 'Teko';
+ font-weight: normal;
+ margin: 0;
+ margin-bottom: 30px;
+ text-align: center;
+ padding: 10px;
+ border: 1px solid #ffcc57;
+ border-radius: 4px;
+}
+h5.status-info {
+ font-size: 18px;
+ text-align: center;
+ color: #eaa300;
+ font-family: 'Teko';
+ font-weight: normal;
+}
+/* ELEMEN INPUT END */
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    zoom: 0.6;
+   }
+  .header img {
+    width: 100%;
+    height: 200;
+    margin: 0;
+    padding: 0;
+}
+  
+}
